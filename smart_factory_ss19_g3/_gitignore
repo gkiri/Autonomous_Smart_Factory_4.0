@@ -1,0 +1,18 @@
+build/*
+devel/*
+install/*
+.catkin_workspace
+src/CMakeLists.txt
+*.swp
+*.orig
+*.pyc
+doc/html/*
+# Dont include clion files
+.idea/
+.vscode/
+
+# CMake
+cmake-build-debug/
+cmake-build-release/
+
+.DS_Store

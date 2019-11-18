@@ -1,0 +1,8 @@
+(cl:in-package auto_smart_factory-srv)
+(cl:export '(WAREHOUSE_CONFIGURATION-VAL
+          WAREHOUSE_CONFIGURATION
+          PACKAGE_CONFIGURATIONS-VAL
+          PACKAGE_CONFIGURATIONS
+          SUCCESS-VAL
+          SUCCESS
+))

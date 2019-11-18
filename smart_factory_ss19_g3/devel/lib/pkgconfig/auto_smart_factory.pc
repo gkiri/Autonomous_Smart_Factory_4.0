@@ -1,0 +1,8 @@
+prefix=/home/nishant/smart_factory_ss19_g3/devel
+
+Name: auto_smart_factory
+Description: Description of auto_smart_factory
+Version: 0.0.1
+Cflags: -I/home/nishant/smart_factory_ss19_g3/devel/include -I/home/nishant/smart_factory_ss19_g3/src/auto_smart_factory/include
+Libs: -L/home/nishant/smart_factory_ss19_g3/devel/lib 
+Requires: geometry_msgs nav_msgs roscpp roslib rospy sensor_msgs std_msgs message_runtime

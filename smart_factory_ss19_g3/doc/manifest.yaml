@@ -1,0 +1,110 @@
+actions: []
+authors: "Orhan Can G\xF6r\xFCr <orhan-can.goeruer@dai-labor.de>,  Hafiz Hamza <m@example.com>, Marc Schmidt <m@example.com>,\
+  \ Jacob Seibert <j@example.com>, Vincent Paul Wölfer <j@example.com>, Patrick Dieter Denzler <j@example.com>, \
+  \ Florian Ziesche <j@example.com>, Malte Siemers <m@example.com>, Utku \xF6zm\xFC <m@example.com>, Uros Petkovic <j@example.com>,\
+  \ Shreyas Gokhale <j@example.com>, Mohannad Al Dakhil <m@example.com>, Paul Dieterich <m@example.com>, Jonathan Regef <m@example.com>,\
+  \ Puriwat Khantiviriya <m@example.com>, Ansgar R\xF6ssig <j@example.com>"
+brief: ''
+bugtracker: ''
+depends:
+- nav_msgs
+- message_runtime
+- catkin
+- roscpp
+- std_msgs
+- roslib
+- sensor_msgs
+- tf
+- rospy
+- message_generation
+- geometry_msgs
+description: The auto_smart_factory package
+license: TODO
+maintainers: "Orhan Can G\xF6r\xFCr <orhan-can.goeruer@dai-labor.de>"
+msgs:
+- PackagePool
+- PlannedPath
+- WarehouseConfiguration
+- Wall
+- RobotHeartbeat
+- StorageState
+- RobotJourney
+- IdlePosition
+- TraySensor
+- CollisionAction
+- PackageConfiguration
+- Package
+- WallGeometry
+- TakeTask
+- StorageUpdate
+- DrivingLastPoint
+- RobotObstacleUpdate
+- GripperState
+- AdditionalTime
+- PerformTask
+- Robot
+- RobotConfiguration
+- Tray
+- Path
+- TrayState
+- TaskState
+- RoadmapGraph
+- RequestStatus
+- TrayGeometry
+- TaskPlannerState
+package_type: package
+repo_url: ''
+srvs:
+- PerformTaskTest
+- SetPackage
+- localPath
+- AssignChargingTask
+- GetWarehouseConfig
+- StorePackage
+- InitAgent
+- bestGoal
+- RetrievePackage
+- RobotInfo
+- GetPackage
+- ChargingPathsRequest
+- RegisterAgentCharging
+- AssignChargingTask
+- PathPlannerDynamicMap
+- MovePackage
+- CalculateETA
+- GetRobotConfigurations
+- RobotForceHalt
+- StorePackageAgent
+- InitTaskPlanner
+- RobotMAPPCommunication
+- PathPlannerNewPath
+- testService
+- listenerInfoAll
+- initRoadmapPlanner
+- ReserveStorageTray
+- outputRequest
+- NewPackageOutput
+- inputRequest
+- NewPackageInput
+- InitStorageManagement
+- triggerRoadmapGenerator
+- PathPlannerStaticMap
+- SetConveyorSpeed
+- RotateTable
+- PathPlannerEDA
+- AssignTask
+- GetPackageConfigurations
+- RobotTask
+- RobotForcePath
+- GetTrayState
+- GetLocalPath
+- NewPackageGenerator
+- MoveGripper
+- InitChargingManagement
+- InitPathPlanner
+- RegisterAgent
+- InitPackageGenerator
+- GetFreeChargingStations
+- shortestPath
+- GetStorageState
+url: ''
