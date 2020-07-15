@@ -1,7 +1,6 @@
 Auto-Smart-Factory                         
 ============
 
-by Orhan Can Görür* (orhan-can.goeruer@dai-labor.de), Jacob Seibert, Marc Schmidt, Malte Siemers, Utku Özmü, Hafiz Hamza, Ansgar Rösig, Paul Dieterich, Jonathan Regef, Mohannad Al Dakhil, Puriwat Khantiviriya, Vincent Paul Wölfer, Patrick Dieter Denzler, Florian Ziesche, Uros Petkovic, Shreyas Gokhale.
 
 We present a closed solution for a simulated autonomous smart factory.
 The environment consists of two parts: production, warehousing. This project involves the warehousing part of it, but it is the development version. That is, some nodes are missing/left for the students to develop their own solutions (please refer to the architecture drawing below). The nodes to be adjusted are simply listed here:
